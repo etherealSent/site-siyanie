@@ -1,0 +1,16 @@
+.product {
+    background: var(--accent-color);
+    border-radius: 30px;
+    padding-bottom: 30px;
+}
+.product-title {
+    color: white;
+    font-size: 32px;
+    font-family: Apple Garamond Light;
+    font-weight: 400;
+}
+.product-photo {
+    height: 250px;
+    width: 100%;
+    object-fit: cover;
+}
