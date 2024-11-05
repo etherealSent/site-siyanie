@@ -29,8 +29,8 @@ export class ProductsService {
       price: 7000,
       photo: "/assets/image.png",
       sizes: ["S", "M", "L", "XL"]
-    }
-  ]
+    },
+  ];
 
   getAllProducts(): Product[] {
     return this.productList;

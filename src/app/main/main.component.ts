@@ -17,10 +17,10 @@ import { HousingLocationComponent } from '../housing-location/housing-location.c
       Your browser does not support the video tag.
     </video>
     <section class="results">
-      <app-product
-        *ngFor="let product of productList"
+    <app-housing-location
+        *ngFor="let product of housingLocationList"
         [product]="product"
-      ></app-product>
+      ></app-housing-location>
     `,
   styleUrls: ['./main.component.css'],
 })
@@ -28,7 +28,7 @@ export class MainComponent {
   productList: Product[] = [];
   readonly baseUrl = 'https://angular.dev/assets/images/tutorials/common';
 
-  housingLocationList: HousingLocation[] = [];
+  housingLocationList: Product[] = [];
 
   housingService: HousingService = inject(HousingService);
 

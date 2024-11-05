@@ -52,7 +52,7 @@ template: `
             <div class="news-item">Developer</div>
         </div>
         <div class="logo">
-          <img width="150px" class="brand-logo" src="/assets/aaaa.png" alt="logo" aria-hidden="true" />
+          <img width="150px" class="brand-logo" src="/assets/siyan1.svg" alt="logo" aria-hidden="true" />
         </div>
       </header>
       </a>

@@ -2,6 +2,7 @@ import {Component, inject} from '@angular/core';import {HousingLocationComponent
 import { CommonModule } from '@angular/common';
 import {HousingLocation} from '../housinglocation';
 import {HousingService} from '../housing.service';
+import { Product } from '../product';
 
 @Component({
   selector: 'app-home',
@@ -16,8 +17,8 @@ import {HousingService} from '../housing.service';
     </section>
     <section class="results">
     <app-housing-location
-        *ngFor="let housingLocation of housingLocationList"
-        [housingLocation]="housingLocation"
+        *ngFor="let product of housingLocationList"
+        [product]="product"
       ></app-housing-location>
   </section>
   `,
@@ -26,7 +27,7 @@ import {HousingService} from '../housing.service';
 export class HomeComponent {
   readonly baseUrl = 'https://angular.dev/assets/images/tutorials/common';
 
-  housingLocationList: HousingLocation[] = [];
+  housingLocationList: Product[] = [];
 
   housingService: HousingService = inject(HousingService);
   constructor() {
