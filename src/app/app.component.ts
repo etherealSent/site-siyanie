@@ -1,17 +1,16 @@
 import {Component} from '@angular/core';
-import {HomeComponent} from './home/home.component';
 import { MainComponent } from './main/main.component';
 import {RouterLink, RouterModule, RouterOutlet} from '@angular/router';
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [HomeComponent, MainComponent, RouterLink, RouterOutlet],  
+  imports: [MainComponent, RouterLink, RouterOutlet],  
 template: `
     <main>
       <a [routerLink]="['/']">
       <header class="brand-name">
-              <div class="buttons">
+          <div class="buttons hide-on-phone">
             <div class="button">
                 <div class="icon">
                     <svg width="38" height="37" viewBox="0 0 38 37" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -40,16 +39,16 @@ template: `
                 <div class="text">Support</div>
             </div>
         </div>
-        <div class="news-bar">
-            <div class="news-item">Hot News</div>
-            <div class="news-item">Hiring</div>
-            <div class="news-item">Hardware</div>
-            <div class="news-item">Software</div>
-            <div class="news-item">Made4Mac</div>
+        <div class="news-bar hide-on-phone">
+            <div class="news-item ">Hot News</div>
+            <div class="news-item hide-on-phone">Hiring</div>
+            <div class="news-item hide-on-phone">Hardware</div>
+            <div class="news-item ">Software</div>
+            <div class="news-item hide-on-phone">Made4Mac</div>
             <div class="news-item">Education</div>
             <div class="news-item">Creative</div>
-            <div class="news-item">Small Biz</div>
-            <div class="news-item">Developer</div>
+            <div class="news-item hide-on-phone">Small Biz</div>
+            <div class="news-item hide-on-phone">Developer</div>
         </div>
         <div class="logo">
           <img width="150px" class="brand-logo" src="/assets/siyan1.svg" alt="logo" aria-hidden="true" />

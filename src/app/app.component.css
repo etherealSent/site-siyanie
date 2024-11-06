@@ -26,6 +26,12 @@ header {
   padding-top: 10px;
 }
 
+@media (max-width: 600px) {
+  .hide-on-phone {
+    display: none;
+  }
+}
+
 .button {
   width: 160px;
   height: 57px;
