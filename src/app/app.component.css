@@ -26,9 +26,21 @@ header {
   padding-top: 10px;
 }
 
+.news-item {
+  text-align: center;
+  color: black;
+  font-size: 24px;
+  font-family: Apple Garamond;
+  font-weight: 400;
+  word-wrap: break-word;
+}
+
 @media (max-width: 600px) {
   .hide-on-phone {
     display: none;
+  }
+  .news-item {
+    font-size: 20px;
   }
 }
 
@@ -82,13 +94,4 @@ header {
   align-items: center;
   gap: 40px;
   display: inline-flex;
-}
-
-.news-item {
-  text-align: center;
-  color: black;
-  font-size: 24px;
-  font-family: Apple Garamond;
-  font-weight: 400;
-  word-wrap: break-word;
 }

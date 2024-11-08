@@ -26,15 +26,16 @@ import { ProductComponent } from '../product/product.component';
           <span class="white">Now at the </span>
           <span class="bold white">Siyanie Project</span>
         </div>
-        <div class="definition hide-on-phone">
-          <div class="definition-text">siyanie [ /ˈʃʌɪnɪŋ/ ] adjective - giving out or reflecting bright light</div>
+        <div class="definition">
+          <div class="definition-text">Siyanie Project [Проект Сияние] - первый публичный бренд концептуальной одежды в России</div>
+          <div class="definition-text">Посвящается всем неравнодушным, кто не считает так же, как эти они</div>
         </div>
       </div>  
       <div class ="results">
-          <app-product
-          *ngFor="let product of productList"
-          [product]="product"
-          ></app-product>
+        <app-product
+        *ngFor="let product of productList"
+        [product]="product"
+        ></app-product>
       </div>
     </div>
   `,

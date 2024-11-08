@@ -9,7 +9,7 @@ export class ProductsService {
   protected productList: Product[] = [
     {
       id: 0,
-      name: 'STEVE JOBS ICONIC Y2K TURTLENECK',
+      name: 'STEVE JOBS ICONIC 90s TURTLENECK',
       description: "a",
       price: 7000,
       photo: "/assets/image.png",
