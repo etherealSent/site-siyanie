@@ -1,0 +1,29 @@
+
+    <video autoplay muted loop id="background-video">
+      <source src="/assets/video.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+    <div class="container">
+      <div class="main-content">
+        <div class="title">
+          <span class="title-part title-part-border white">t</span>
+          <span class="title-part title-part-border blue">h</span>
+          <span class="title-part title-part-border red">e</span>
+          <span class="title-part space">  </span>
+          <span class="title-part large white">Apple.</span>
+        </div>
+        <div class="subtitle">
+          <span class="white">Now at the </span>
+          <span class="bold white">Siyanie Project</span>
+        </div>
+        <div class="definition">
+          <div class="definition-text">Siyanie Project [Проект Сияние] - первый бренд концептуальной одежды в России</div>
+        </div>
+      </div>  
+      <div class ="results">
+        <app-product
+        *ngFor="let product of productList"
+        [product]="product"
+        ></app-product>
+      </div>
+    </div>

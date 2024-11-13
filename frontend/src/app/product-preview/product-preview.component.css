@@ -1,0 +1,95 @@
+.container {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.title {
+    font-size: 36px;
+    font-family: Apple Garamond Light;
+    font-weight: 400;
+    word-wrap: break-word;
+}
+
+.subtitle {
+    font-size: 32px;
+    font-family: Apple Garamond;
+    font-weight: 500;
+    word-wrap: break-word;
+}
+
+.description {
+    margin-top: 30px;
+}
+
+.product-image {
+    max-width: 100%;
+    height: auto;
+}
+
+.buy-section {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+}
+
+.price {
+    color: black;
+    font-size: 32px;
+    font-family: 'Apple Garamond Light', sans-serif;
+    font-weight: 400;
+}
+
+.size-selector {
+    margin-top: 20px;
+}
+
+.size-selector .text {
+    font-size: 24px;
+    font-family: 'Apple Garamond Light', sans-serif;
+    font-weight: 400;
+}
+
+.buy-button {
+    margin-top: 20px;
+}
+
+.product-images {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+@media(max-width: 600px) {
+    .title {
+        font-size: 32px;
+    }  
+    .subtitle {
+        font-size: 24px;
+    }
+    .container {
+        display: flex;
+        flex-direction: column;
+    }
+    .product-images {
+        display: flex;
+        flex-direction: row;
+    }
+    .buy-section {
+        margin-top: 15px;
+        align-self: start;
+    }
+    .hide-on-mobile {
+        display: none;
+    }
+}
+
+@media(min-width: 601px) {
+    .hide-mobile {
+        display: none;
+    }
+}
