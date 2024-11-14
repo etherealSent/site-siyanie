@@ -52,7 +52,7 @@
 }
 
 .form-title {
-    font-size: 32px;
+    font-size: 20px;
     font-family: Apple Garamond Light;
     font-weight: 400;
 }
@@ -87,7 +87,7 @@
 }
 
 .label {
-    font-size: 18px;
+    font-size: 16px;
     font-family: Apple Garamond Light;
     font-weight: 400;
 }
@@ -102,7 +102,7 @@
 .total {
     display: flex;
     flex-direction: column;
-    font-size: 24px;
+    font-size: 16px;
     font-family: Apple Garamond Light;
     font-weight: 400;
 }
@@ -143,11 +143,11 @@
         display: none;
     }
     .title-part {
-        font-size: 36px; /* Уменьшите размер шрифта для телефонов */
+        font-size: 50; /* Уменьшите размер шрифта для телефонов */
     }
 
     .title-part.large {
-        font-size: 36px;
+        font-size: 50px;
     }
 
     .subtitle {
