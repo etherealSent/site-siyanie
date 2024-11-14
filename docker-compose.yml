@@ -16,6 +16,7 @@ services:
       - './certbot/www:/var/www/certbot/:ro'
     depends_on:
       - certbot
+      - frontend
     networks:
       - dev
 

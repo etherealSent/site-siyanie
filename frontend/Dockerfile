@@ -28,7 +28,7 @@ COPY --from=build /app/dist/first-app/browser /usr/share/nginx/html
 EXPOSE 80
 
 # Start Nginx
-#CMD ["nginx", "-g", "daemon off;"]
+CMD ["nginx", "-g", "daemon off;"]
 
 # docker build -t first-app-nodejs .
 # docker run -d -p 8080:80 first-app-nodejs
