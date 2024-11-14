@@ -142,8 +142,11 @@
     .hide-on-phone {
         display: none;
     }
+    .paying-form {
+        margin: 0;
+    }
     .title-part {
-        font-size: 50; /* Уменьшите размер шрифта для телефонов */
+        font-size: 36px; /* Уменьшите размер шрифта для телефонов */
     }
 
     .title-part.large {
