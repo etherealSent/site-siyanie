@@ -1,14 +1,21 @@
 :host {
   --content-padding: 20px;
 }
+
+main {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
 header {
   display: block;
   height: 60px;
   padding-top: var(--content-padding);
 }
 .content {
-  /* padding: var(--content-padding); */
-  height: max-content;
+  padding: var(--content-padding);
+  flex: 1;
 }
 
 .logo {
