@@ -39,10 +39,11 @@ export class CheckoutComponent implements OnInit {
     this.product = this.productsService.getProductById(productId);
   }
 
-  ngOnInit() {
+  ngOnInit(): void {
     this.route.queryParams.subscribe(params => {
         this.selectedSize = params['size'];
     })
+    window.scrollTo(0, 0);
   }
 
   submitApplication() {

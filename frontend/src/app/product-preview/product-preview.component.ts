@@ -1,4 +1,4 @@
-import {Component, inject} from '@angular/core';
+import {Component, inject, OnInit} from '@angular/core';
 import {CommonModule} from '@angular/common';
 import {ActivatedRoute, Router, RouterModule} from '@angular/router';
 import {Product} from '../product';
@@ -20,5 +20,10 @@ export class ProductPreviewComponent {
   constructor() {
       const productId = String(this.route.snapshot.params['id']);
       this.product = this.productsService.getProductById(productId);
+  }
+
+  ngOnInit(): void {
+    // Scroll to the top of the page
+    window.scrollTo(0, 0);
   }
 }
