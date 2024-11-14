@@ -1,3 +1,17 @@
+@font-face {
+  font-family: 'Apple Garamond';
+  src: url('/assets/fonts/AppleGaramond.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Apple Garamond Light';
+  src: url('/assets/fonts/AppleGaramond-Light.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
 :host {
   --content-padding: 20px;
 }
@@ -38,7 +52,7 @@ header {
   text-align: center;
   color: black;
   font-size: 18px;
-  font-family: Apple Garamond;
+  font-family: 'Apple Garamond', sans-serif;
   font-weight: 400;
   word-wrap: break-word;
 }
@@ -115,7 +129,7 @@ footer {
     text-align: center;
     color: white;
     font-size: 18px;
-    font-family: Apple Garamond;
+    font-family: 'Apple Garamond', sans-serif;
     font-weight: 400;
     word-wrap: break-word;
 }
