@@ -14,7 +14,7 @@
 }
 
 .title-part-border {
-    -webkit-text-stroke: 1.5px black; /* Add a thicker stroke */
+    -webkit-text-stroke: 0.75px black; /* Add a thicker stroke */
 }
 
 .title-part.space {
