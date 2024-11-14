@@ -11,12 +11,12 @@ const routeConfig: Routes = [
     {
         path: 'products/:id',
         loadComponent: () => import('./product-preview/product-preview.component').then(m => m.ProductPreviewComponent),
-      title: 'Product Preview',
+      title: 'Siyanie Project',
     },
     {
         path: 'checkout/:id',
         loadComponent: () => import('./checkout/checkout.component').then(m => m.CheckoutComponent),
-        title: 'Checkout',
+        title: 'Siyanie Project',
     },
   ];
   export default routeConfig;
