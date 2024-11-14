@@ -143,7 +143,7 @@
         display: none;
     }
     .title-part {
-        font-size: 72px; /* Уменьшите размер шрифта для телефонов */
+        font-size: 64px; /* Уменьшите размер шрифта для телефонов */
     }
 
     .title-part.large {
