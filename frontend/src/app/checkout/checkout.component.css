@@ -143,11 +143,11 @@
         display: none;
     }
     .title-part {
-        font-size: 64px; /* Уменьшите размер шрифта для телефонов */
+        font-size: 36px; /* Уменьшите размер шрифта для телефонов */
     }
 
     .title-part.large {
-        font-size: 64px;
+        font-size: 36px;
     }
 
     .subtitle {
@@ -156,6 +156,7 @@
 
     .main-content {
         display: flex;
+        align-items: center;
         flex-direction: column;
     }
 
